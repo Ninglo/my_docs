@@ -1,0 +1,2 @@
+It's obviously that I always lose control (may be per month or per weak). So the most important thing is finding a 'brake'. Which means that when sometime I am losing control, I can use some method to adjust my status immediately.
+During previous experience, I think some video or someone which has a rational status can also impact me. So, in current some month, I think the first thing I should do is find more rational person to take effect on me. For example, youtuber 'MoneyXYZ'. 

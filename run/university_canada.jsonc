@@ -1,0 +1,41 @@
+{
+    "name": "canada",
+    "degree": "master",
+    "link": "https://www.usnews.com/education/best-global-universities/canada/computer-science",
+    "list": [
+        {
+            "name": "McMaster",
+            "link": "https://www.eng.mcmaster.ca/cas/programs/degree-options/msc-computer-science/",
+            "email": "gradcas@mcmaster.ca",
+            "require": {
+                // unknown, ask for information by email
+            }
+        },
+        {
+            "name": "yorku",
+            "link": "https://lassonde.yorku.ca/eecs/academics/graduate/computer-science-msc/",
+            "email": "eecs-gradasst@yorku.ca",
+            "require": {
+                "must_cs": true,
+                "course": "b+", // last two years
+                "english": {
+                    "TOEFL": 91,
+                    "IELTS": 7
+                }
+            }
+        },
+        {
+            "name": "uottawa",
+            "link": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+            "email": "engineering.grad@uottawa.ca",
+            "require": {
+                "must_cs": true,
+                "course": "b", // last two years
+                "english": {
+                    "TOEFL": 100,
+                    "IELTS": 7
+                }
+            }
+        },
+    ]
+}
