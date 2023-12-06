@@ -2,5 +2,10 @@
     "cSpell.words": [
         "INFJ",
         "INTJ"
-    ]
+    ],
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "Cargo.toml": "Cargo.lock",
+        "*.md": "${basename}*"
+    }
 }
