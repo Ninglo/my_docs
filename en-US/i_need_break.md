@@ -1,2 +1,2 @@
-It's obviously that I always lose control (may be per month or per weak). So the most important thing is finding a 'brake'. Which means that when sometime I am losing control, I can use some method to adjust my status immediately.
-During previous experience, I think some video or someone which has a rational status can also impact me. So, in current some month, I think the first thing I should do is find more rational person to take effect on me. For example, youtuber 'MoneyXYZ'. 
+It's obvious that I sometimes lose control, maybe once a month or once a week. Therefore, the most important thing is to find a 'brake,' which means that when I am losing control, I can use a method to adjust my state immediately.
+From previous experience, I believe that watching certain videos or being around someone who maintains a rational demeanor can also impact me. So, in the past few months, I think the first thing I should do is find more rational people to influence me.
