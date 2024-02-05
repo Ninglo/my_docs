@@ -26,6 +26,18 @@ result = f(工作成果, 汇报能力)
 
 5. Handle haters and criticism
 
+6. Work Smart
+* First principle (五步工作法)
+    - 不要工作太长时间
+* 如何让别人理解你
+    - 投入时间沟通
+    - 面向听众表达
+* startup & 大厂的区别
+    - 木桶效应与 anti（可以有其他人帮你补齐，边际效益递增）
+* 信念
+
+7. intellectual honesty
+
 ## Ref
 
 [1] 华人在硅谷怎么做(不)到VP？- https://www.youtube.com/watch?v=8omGQSetKMA
