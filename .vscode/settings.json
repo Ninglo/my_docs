@@ -8,5 +8,6 @@
     "explorer.fileNesting.patterns": {
         "Cargo.toml": "Cargo.lock",
         "*.md": "${basename}*"
-    }
+    },
+    "git.confirmEmptyCommits": false
 }
