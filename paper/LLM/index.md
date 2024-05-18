@@ -32,3 +32,7 @@ Components:
 J. Tang, X. Chen, Y. Lin et al., “A survey on large language model
 based autonomous agents,” arXiv preprint arXiv:2308.11432, 2023.
 ```
+
+https://eugeneyan.com/writing/llm-patterns/
+https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
