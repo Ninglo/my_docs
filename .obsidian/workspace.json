@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a6fa981b6a5a0583",
+        "id": "8162cc3ae6179518",
         "type": "tabs",
         "children": [
           {
-            "id": "ea2d200c0e7e3e30",
+            "id": "69c58344731aecd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "068c3ef9fbdf4a5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logs/2024-07-02.md",
+                "file": "project/product_system/infos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logs/2024-07-02.md",
+                "file": "project/product_system/infos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logs/2024-07-02.md",
+                "file": "project/product_system/infos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logs/2024-07-02.md"
+                "file": "project/product_system/infos.md"
               }
             }
           }
@@ -160,46 +147,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "068c3ef9fbdf4a5f",
+  "active": "69c58344731aecd5",
   "lastOpenFiles": [
-    "work/obsidian.md",
+    "answer",
+    "work/obsidian/使用问题.md",
+    "project/product_system/infos.md",
+    "project/product_system",
+    "weibo.md",
+    "think.md",
     "TODO.md",
+    "zdone/为你的意志力添加弹性.md",
+    "zdone/ 为什么你总是摆脱不了后悔.md",
+    "zdone/influence_without_authority.md",
+    "work/article_summary_bot/Idea.md",
+    "work/article_summary_bot/foo.md",
+    "Logs/2024-07-03.md",
+    "Logs/2024-07-02.md",
+    "book_list/book-list.md",
+    "private/24-03-10.md",
+    "Pasted image 20240702223021.png",
+    "okr/OKR 23-11-12.md",
+    "okr/OKR 24-07-08.md",
+    "zh-CN/哲学 x AI.md",
+    "zh-CN/philosophy.png",
+    "zh-CN/image.png",
+    "zh-CN/哲学 x AI",
+    "work/article_summary_bot/AI “课代表” — 辅助作者开发文章回答 bot 的工具.md",
+    "work/obsidian",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
     "work",
     "project/Coding 教程/main.md",
     "mind",
-    "project/article_summary_bot/foo.md",
     "foo.md",
-    "project/article_summary_bot",
-    "book_list/book-list.md",
+    "work/article_summary_bot",
     "book_list/book-list.txt",
     "book_list",
-    "weibo.md",
     "useful-tools/youtubeCaption.ts",
     "useful-tools",
-    "Untitled.canvas",
     "TODO_BOX/Untitled.canvas",
-    "project/Coding 教程",
-    "Logs/2024-07-02.md",
-    "project",
     "2024-07-02 1.md",
-    "Logs",
-    "zdone/为你的意志力添加弹性.md",
     "zdone/也谈提问策略.md",
     "zdone/交流与思考.md",
     "zdone/其实你早就掌握了编写 prompt 的秘诀.md",
     "zdone/内观感想1.md",
-    "zdone/去-infra.md",
-    "zdone/对自我诚恳.md",
-    "zdone/怀疑论是怎么样帮我完成自我分化的.md",
-    "zdone/我眼中的函数式编程.md",
-    "zdone/拖延与启动成本.md",
-    "zdone/效用的意义.md",
-    "zdone/ 为什么你总是摆脱不了后悔.md",
-    "zh-CN/「精力充沛」.md",
-    "zh-CN/AI_时代的程序员.md",
-    "zh-CN/AI_时代的程序员_1.png",
-    "zh-CN/AIxSth.md",
-    "zh-CN/artifact_work.md",
-    "Untitled 1.canvas"
+    "zh-CN/AI_时代的程序员_1.png"
   ]
 }
