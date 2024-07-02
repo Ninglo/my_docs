@@ -9,5 +9,6 @@
         "Cargo.toml": "Cargo.lock",
         "*.md": "${basename}*"
     },
-    "git.confirmEmptyCommits": false
+    "git.confirmEmptyCommits": false,
+    "deno.enable": true
 }

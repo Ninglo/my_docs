@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "c1c7119d65d53099",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6fa981b6a5a0583",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea2d200c0e7e3e30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO_BOX/Coding 教程/main.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3713083ef9c9af3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3623c19e772b413",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41f2c2b6b51e68de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34bb5909a0b92d9a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e1a3201ab3c8c67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "6c63516400a2248a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bbe301c08ffbcbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ee0e3b323586154",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO_BOX/Coding 教程/main.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58108eda04bd83ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO_BOX/Coding 教程/main.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09d7eae6a1cf1cb0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "592510924f8a030a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO_BOX/Coding 教程/main.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "41f2c2b6b51e68de",
+  "lastOpenFiles": [
+    "TODO_BOX/article_summary_bot/foo.md",
+    "foo.md",
+    "TODO_BOX/article_summary_bot",
+    "book_list/book-list.md",
+    "book_list/book-list.txt",
+    "book_list",
+    "TODO.md",
+    "weibo.md",
+    "useful-tools/youtubeCaption.ts",
+    "useful-tools",
+    "Untitled.canvas",
+    "Untitled.md",
+    "TODO_BOX/Coding 教程/main.md",
+    "TODO_BOX/Untitled.canvas",
+    "TODO_BOX/Coding 教程",
+    "Logs/2024-07-02.md",
+    "TODO_BOX",
+    "2024-07-02 1.md",
+    "Logs",
+    "zdone/为你的意志力添加弹性.md",
+    "zdone/也谈提问策略.md",
+    "zdone/交流与思考.md",
+    "zdone/其实你早就掌握了编写 prompt 的秘诀.md",
+    "zdone/内观感想1.md",
+    "zdone/去-infra.md",
+    "zdone/对自我诚恳.md",
+    "zdone/怀疑论是怎么样帮我完成自我分化的.md",
+    "zdone/我眼中的函数式编程.md",
+    "zdone/拖延与启动成本.md",
+    "zdone/效用的意义.md",
+    "zdone/ 为什么你总是摆脱不了后悔.md",
+    "zh-CN/「精力充沛」.md",
+    "zh-CN/AI_时代的程序员.md",
+    "zh-CN/AI_时代的程序员_1.png",
+    "zh-CN/AIxSth.md",
+    "zh-CN/artifact_work.md",
+    "zh-CN/intellecutal_honesty.md",
+    "Untitled 1.canvas"
+  ]
+}
