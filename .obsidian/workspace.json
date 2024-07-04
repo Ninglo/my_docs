@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "491959c23f92baf9",
+        "id": "a3467ee9b69ac22f",
         "type": "tabs",
         "children": [
           {
-            "id": "3fbdbab9596dcaf1",
+            "id": "7d0817fc8148acd0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tasks/快速写作 & 应用.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -87,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tasks/快速写作 & 应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tasks/快速写作 & 应用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tasks/快速写作 & 应用.md"
+              }
             }
           }
         ]
@@ -143,49 +151,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fbdbab9596dcaf1",
+  "active": "7d0817fc8148acd0",
   "lastOpenFiles": [
-    "zh-CN/AI_时代的程序员_1.png",
-    "zh-CN/AI_时代的程序员.md",
-    "zdone/AI_时代的程序员_1.png",
-    "zdone/AI_时代的程序员.md",
-    "zh-CN/ai_pull_push.md",
-    "zh-CN/foo.md",
-    "zh-CN/intellecutal_honesty.md",
-    "zdone/去-infra.md",
-    "zdone/拖延与启动成本.md",
-    "zdone/怀疑论是怎么样帮我完成自我分化的.md",
-    "zdone/对自我诚恳.md",
-    "zdone/其实你早就掌握了编写 prompt 的秘诀.md",
-    "zdone/ 为什么你总是摆脱不了后悔.md",
-    "zdone/influence_without_authority.md",
-    "works/掌控感/为什么知道那么多道理_还是过不好这一生.md",
-    "works/掌控感/为什么你找不到爱好.md",
-    "zdone/也许你不需要批判思维.md",
-    "works/掌控感/也许放松才是导致你疲惫的根源.md",
-    "zdone/也谈提问策略.md",
-    "zdone/交流与思考.md",
-    "works/掌控感/虚无主义是一种精神上的绝症吗？.md",
-    "zdone/自由主义.md",
-    "zdone/效用的意义.md",
+    "Logs/2024-07-05.md",
+    "tasks/快速写作 & 应用.md",
+    "Logs/2024-07-04.md",
+    "Logs/okr/OKR 24-07-08.md",
+    "Logs/2024-07-03.md",
+    "Logs/2024-07-02.md",
     "think.md",
     "TODO.md",
     "weibo.md",
-    "works/product_system/infos.md",
+    "tasks/词汇量与理解能力的关系.md",
+    "tasks/内省.md",
+    "tasks/english_learning/24-03-10.md",
+    "tasks/english_learning/italki/thies/talk0.md",
+    "tasks/english_learning/italki/stedfan_dele/talk3.md",
+    "tasks/english_learning/italki/stedfan_dele/talk2.md",
+    "tasks/english_learning/italki/stedfan_dele/talk1.md",
+    "tasks/english_learning/italki/stedfan_dele/talk0.md",
+    "tasks/english_learning/italki/jenny/talk0.md",
+    "tasks/english_learning/italki/thies",
+    "tasks/english_learning/italki/stedfan_dele",
+    "tasks/english_learning/italki/jenny",
+    "tasks/english_learning/italki",
+    "Logs/okr/OKR 23-11-12.md",
+    "Logs/okr",
+    "tasks/LLM/index.md",
+    "tasks/LLM/image.png",
+    "tasks/LLM/image-8.png",
+    "tasks/LLM/image-7.png",
+    "tasks/LLM/image-6.png",
+    "tasks/LLM/image-5.png",
+    "tasks/LLM/image-4.png",
+    "tasks/LLM/image-3.png",
+    "tasks/LLM/image-2.png",
+    "tasks/LLM/image-1.png",
+    "tasks/LLM",
+    "tasks/english_learning/en-US/vscode_arch.png",
+    "tasks/english_learning/en-US/vscode_arch.md",
+    "tasks/english_learning/en-US/i_need_break.md",
+    "tasks/english_learning/en-US/100sentense.md",
+    "tasks/english_learning/en-US",
+    "zdone/ 为什么你总是摆脱不了后悔.md",
+    "zh-CN/AI_时代的程序员.md",
+    "zdone/AI_时代的程序员.md",
     "Untitled.canvas",
     "works/掌控感",
     "tasks",
     "works/joyMapper",
-    "works/article_summary_bot",
-    "works/product_system/obsidian",
-    "works",
-    "answer",
-    "works/product_system",
-    "Pasted image 20240702223021.png",
-    "zh-CN/philosophy.png",
-    "zh-CN/image.png",
-    "zh-CN/哲学 x AI",
-    "work/obsidian",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "TODO_BOX/Untitled.canvas"
