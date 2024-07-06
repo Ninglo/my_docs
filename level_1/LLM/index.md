@@ -5,7 +5,7 @@
 
 ## Structure (Transformer)
 
-![Paper structure](image.png)
+![Paper structure](level_1/LLM/image.png)
 
 ![Transformer](image-6.png)
 

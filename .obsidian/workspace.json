@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/快速写作 & 应用.md",
+                "file": "level_1/Coding 教程/copilot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3571ac702bd39d63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "level_1/VSCode Scripts Box.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,6 +82,7 @@
       {
         "id": "f2215ccfccec67a9",
         "type": "tabs",
+        "dimension": 28.735632183908045,
         "children": [
           {
             "id": "4e1a3201ab3c8c67",
@@ -84,6 +97,7 @@
       {
         "id": "7bbe301c08ffbcbc",
         "type": "tabs",
+        "dimension": 71.26436781609196,
         "children": [
           {
             "id": "2ee0e3b323586154",
@@ -91,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks/快速写作 & 应用.md",
+                "file": "level_1/Coding 教程/copilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks/快速写作 & 应用.md",
+                "file": "level_1/Coding 教程/copilot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,11 +145,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/快速写作 & 应用.md"
+                "file": "level_1/Coding 教程/copilot.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,55 +166,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d0817fc8148acd0",
+  "active": "4e1a3201ab3c8c67",
   "lastOpenFiles": [
+    "preview.svg",
+    "private/svg.svg",
+    "private/access.token",
+    "private",
+    "level_1/Coding 教程/copilot.md",
+    "level_0/卡片笔记法.md",
+    "level_1/VSCode Scripts Box.md",
+    "level_0/weibo.md",
+    "level_0/TODO.md",
+    "level_0/think.md",
     "Logs/2024-07-05.md",
-    "tasks/快速写作 & 应用.md",
-    "Logs/2024-07-04.md",
+    "level_0/心流.md",
+    "level_2/product_system/think.md",
     "Logs/okr/OKR 24-07-08.md",
+    "level_1/快速写作 & 应用.md",
+    "Logs/2024-07-04.md",
     "Logs/2024-07-03.md",
     "Logs/2024-07-02.md",
-    "think.md",
-    "TODO.md",
-    "weibo.md",
-    "tasks/词汇量与理解能力的关系.md",
-    "tasks/内省.md",
-    "tasks/english_learning/24-03-10.md",
-    "tasks/english_learning/italki/thies/talk0.md",
-    "tasks/english_learning/italki/stedfan_dele/talk3.md",
-    "tasks/english_learning/italki/stedfan_dele/talk2.md",
-    "tasks/english_learning/italki/stedfan_dele/talk1.md",
-    "tasks/english_learning/italki/stedfan_dele/talk0.md",
-    "tasks/english_learning/italki/jenny/talk0.md",
-    "tasks/english_learning/italki/thies",
-    "tasks/english_learning/italki/stedfan_dele",
-    "tasks/english_learning/italki/jenny",
-    "tasks/english_learning/italki",
+    "level_1/词汇量与理解能力的关系.md",
+    "level_1/内省.md",
+    "level_1/english_learning/24-03-10.md",
+    "level_1/english_learning/italki/thies/talk0.md",
+    "level_1/english_learning/italki/stedfan_dele/talk3.md",
+    "level_1/english_learning/italki/stedfan_dele/talk2.md",
+    "level_1/english_learning/italki/stedfan_dele/talk1.md",
+    "level_1/english_learning/italki/stedfan_dele/talk0.md",
+    "level_1/english_learning/italki/jenny/talk0.md",
+    "level_1/english_learning/italki/thies",
+    "level_1/english_learning/italki/stedfan_dele",
+    "level_1/english_learning/italki/jenny",
+    "level_1/english_learning/italki",
     "Logs/okr/OKR 23-11-12.md",
     "Logs/okr",
-    "tasks/LLM/index.md",
-    "tasks/LLM/image.png",
-    "tasks/LLM/image-8.png",
-    "tasks/LLM/image-7.png",
-    "tasks/LLM/image-6.png",
-    "tasks/LLM/image-5.png",
-    "tasks/LLM/image-4.png",
-    "tasks/LLM/image-3.png",
-    "tasks/LLM/image-2.png",
-    "tasks/LLM/image-1.png",
-    "tasks/LLM",
-    "tasks/english_learning/en-US/vscode_arch.png",
-    "tasks/english_learning/en-US/vscode_arch.md",
-    "tasks/english_learning/en-US/i_need_break.md",
-    "tasks/english_learning/en-US/100sentense.md",
-    "tasks/english_learning/en-US",
-    "zdone/ 为什么你总是摆脱不了后悔.md",
-    "zh-CN/AI_时代的程序员.md",
-    "zdone/AI_时代的程序员.md",
+    "level_1/LLM/index.md",
+    "level_1/LLM/image.png",
+    "level_1/LLM/image-8.png",
+    "level_1/LLM/image-7.png",
+    "level_1/LLM/image-6.png",
+    "level_1/LLM/image-5.png",
+    "level_1/LLM/image-4.png",
+    "level_1/LLM/image-3.png",
+    "level_1/LLM/image-2.png",
+    "level_1/LLM/image-1.png",
+    "level_1/LLM",
+    "level_1/english_learning/en-US",
     "Untitled.canvas",
-    "works/掌控感",
-    "tasks",
-    "works/joyMapper",
+    "level_2/掌控感",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "TODO_BOX/Untitled.canvas"

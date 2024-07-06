@@ -273,7 +273,7 @@ Benefiting from VSCode's exquisitely designed plug-in system, VSCode can extract
 
 There is no doubt that VSCode Remote series capabilities (Remote SSH, code-server...) are one of its core competitive capabilities that distinguish it from other IDEs. In order to achieve a consistent experience between Remote connection and local Electron App, VSCode encapsulates a complete set of ipc communication protocols to smooth the differences between local VSCode and connected cloud services. Its architecture diagram is as follows:
 
-![VSCodeArch](image.png)
+![VSCodeArch](level_1/LLM/image.png)
 
 When the user uses the VSCode App, it communicates with the VSCode Server running locally through the ipc interface provided by Electron. In code-server or SSH mode, the Render process communicates with the server in the cloud through the websocket or SSH protocol. The only difference is the communication protocol, and the return results of the calling methods are basically the same. Through such an architectural design, VSCode ensures the consistency of experience between Native & Remote, and also lays a solid foundation for the success of the VSCode Remote series capabilities.
 
