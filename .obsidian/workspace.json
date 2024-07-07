@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a3467ee9b69ac22f",
+        "id": "3eeafcaf1a4367af",
         "type": "tabs",
         "children": [
           {
-            "id": "7d0817fc8148acd0",
+            "id": "c6abb083a226ef60",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Level 2/Production System/think.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Level 2/Production System/think.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Level 2/Production System/think.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Level 2/Production System/think.md"
+              }
             }
           }
         ],
@@ -146,8 +154,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d0817fc8148acd0",
+  "active": "c6abb083a226ef60",
   "lastOpenFiles": [
+    "Meaning of Quickly Writing#Foo.md",
+    "Meaning of Quickly Writi.md",
+    "Logs/level-2-production-system-think-think.md",
+    "Logs/-2024-07-08-md.md",
+    "Logs/-gitignore.md",
+    "Logs/2024-07-08.md",
+    "Level 1/Meaning of Quickly Writing.md",
+    "level_2.md",
+    "level_2/product_system/think.md",
+    "level_2/product_system",
+    "level_2",
+    "Logs/2024-07-05.md",
     "OKRs/OKR 24-07-08.md",
     "OKRs/OKR 23-11-12.md",
     "OKRs",
@@ -168,22 +188,10 @@
     "Archive/Take Control/为你的意志力添加弹性.md",
     "Archive/Take Control/为什么知道那么多道理_还是过不好这一生.md",
     "Archive/Take Control/为什么你找不到爱好.md",
-    "Archive/Take Control/不要用意志力来克制欲望.md",
-    "Archive/Take Control/control.md",
     "Archive/Take Control",
-    "Level 1/Joy Mapper/workspace.md",
     "Level 1/Joy Mapper",
-    "Level 0/内省.md",
-    "Level 0/词汇量与理解能力的关系.md",
-    "Level 1/Coding Tutorial base AI tools/main.md",
-    "Level 1/Coding Tutorial base AI tools/Github Copilot Experience.md",
     "Level 1/Coding Tutorial base AI tools",
-    "Archive/Coding Tutorial base AI tools/Github Copilot Experience.md",
-    "Archive/English Learning/italki/thies/talk0.md",
-    "Archive/English Learning/italki/stedfan_dele/talk3.md",
     "Archive/English Learning/italki/thies",
-    "Archive/English Learning/italki/stedfan_dele",
-    "Archive/English Learning/italki/jenny",
     "Archive/English Learning/en-US/vscode_arch.png",
     "Archive/LLM Paper notes/images/image.png",
     "Archive/LLM Paper notes/images/image-8.png",

@@ -1,3 +1,5 @@
+Tag: [[tag/Software]], [[tag/Coding Tutorial]]
+
 价值在于延长一轮工作的时间
 
 要认真总结一下使用靠的优势都有哪些
