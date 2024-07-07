@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f91e7edcbce0521f",
+        "id": "3b6570b83e54440e",
         "type": "tabs",
         "children": [
           {
-            "id": "0ce4d9ed8c782b1f",
+            "id": "58378711fde179e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tag/OKR.md",
+                "file": "Logs/2024-07-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tag/OKR.md",
+                "file": "Logs/2024-07-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tag/OKR.md",
+                "file": "Logs/2024-07-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tag/OKR.md"
+                "file": "Logs/2024-07-08.md"
               }
             }
           }
@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ce4d9ed8c782b1f",
+  "active": "58378711fde179e8",
   "lastOpenFiles": [
+    "tag/OKR.md",
     "Level 1/VSCode Scripts Box.md",
     "tag/Script Box.md",
     "Level 2/Production System/think.md",
@@ -173,7 +174,6 @@
     "tag/Coding Tutorial.md",
     "tag/Software.md",
     "tag/Product System.md",
-    "tag/OKR.md",
     "tag/Writing.md",
     "tag/Obsidian.md",
     "tag/Note.md",
