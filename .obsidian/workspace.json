@@ -11,12 +11,8 @@
             "id": "7d0817fc8148acd0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "level_1/Coding 教程/copilot.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "level_1/Coding 教程/copilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "level_1/Coding 教程/copilot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "level_1/Coding 教程/copilot.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,13 +158,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e1a3201ab3c8c67",
+  "active": "7d0817fc8148acd0",
   "lastOpenFiles": [
+    "prompts/prompt.md",
+    "prompts/et2.md",
+    "prompts/english-teacher.md",
+    "prompts",
+    "level_1/copilot 体验.md",
+    "level_1/Coding 教程/copilot.md",
+    "level_1/copilot.md",
     "preview.svg",
     "private/svg.svg",
     "private/access.token",
     "private",
-    "level_1/Coding 教程/copilot.md",
     "level_0/卡片笔记法.md",
     "level_1/VSCode Scripts Box.md",
     "level_0/weibo.md",
@@ -193,15 +191,11 @@
     "level_1/english_learning/italki/stedfan_dele/talk3.md",
     "level_1/english_learning/italki/stedfan_dele/talk2.md",
     "level_1/english_learning/italki/stedfan_dele/talk1.md",
-    "level_1/english_learning/italki/stedfan_dele/talk0.md",
-    "level_1/english_learning/italki/jenny/talk0.md",
     "level_1/english_learning/italki/thies",
     "level_1/english_learning/italki/stedfan_dele",
     "level_1/english_learning/italki/jenny",
     "level_1/english_learning/italki",
-    "Logs/okr/OKR 23-11-12.md",
     "Logs/okr",
-    "level_1/LLM/index.md",
     "level_1/LLM/image.png",
     "level_1/LLM/image-8.png",
     "level_1/LLM/image-7.png",
@@ -210,11 +204,9 @@
     "level_1/LLM/image-4.png",
     "level_1/LLM/image-3.png",
     "level_1/LLM/image-2.png",
-    "level_1/LLM/image-1.png",
     "level_1/LLM",
     "level_1/english_learning/en-US",
     "Untitled.canvas",
-    "level_2/掌控感",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "TODO_BOX/Untitled.canvas"
