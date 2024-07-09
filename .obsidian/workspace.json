@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logs/2024-07-08.md",
+                "file": "Logs/2024-07-09.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logs/2024-07-08.md",
+                "file": "Logs/2024-07-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logs/2024-07-08.md",
+                "file": "Logs/2024-07-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logs/2024-07-08.md"
+                "file": "Logs/2024-07-09.md"
               }
             }
           }
@@ -156,6 +156,19 @@
   },
   "active": "58378711fde179e8",
   "lastOpenFiles": [
+    "Logs/2024-07-09.md",
+    "Logs/2024-07-08.md",
+    "Logs/2024-07-05.md",
+    "Logs/2024-07-04.md",
+    "Logs/2024-07-03.md",
+    "Logs/2024-07-02.md",
+    "Logs",
+    "Daily/2024-07-03.md",
+    "Daily/2024-07-08.md",
+    "Daily/2024-07-05.md",
+    "Daily/2024-07-04.md",
+    "Daily/2024-07-02.md",
+    "Daily",
     "tag/OKR.md",
     "Level 1/VSCode Scripts Box.md",
     "tag/Script Box.md",
@@ -163,7 +176,6 @@
     "Untitled.canvas",
     "tag/Book List.md",
     "Level 2/Production System/obsidian/使用问题.md",
-    "Logs/2024-07-02.md",
     "tag/Think.md",
     "tag/Philosophy.md",
     "tag/Daily Todo.md",
@@ -173,10 +185,6 @@
     "tag/Idea.md",
     "tag/Coding Tutorial.md",
     "tag/Software.md",
-    "tag/Product System.md",
-    "tag/Writing.md",
-    "tag/Obsidian.md",
-    "tag/Note.md",
     "tag",
     "tag/Think",
     "tag/Philosophy",
@@ -185,14 +193,6 @@
     "tag/Joy",
     "tag/Book Note",
     "tag/Idea",
-    "tag/Coding Tutorial",
-    "tag/Software",
-    "Logs/2024-07-03.md",
-    "Logs/2024-07-04.md",
-    "Logs/2024-07-05.md",
-    "Meaning of Quickly Writing#Foo.md",
-    "Meaning of Quickly Writi.md",
-    "Logs/level-2-production-system-think-think.md",
     "Archive/English Learning/en-US/vscode_arch.png",
     "Archive/LLM Paper notes/images/image.png",
     "Archive/LLM Paper notes/images/image-8.png",

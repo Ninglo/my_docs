@@ -1,4 +1,4 @@
-Tag: [[tag/Writing]], [[tag/Note]], [[tag/Shuang Pin]]
+Tag: [[tag/Writing]], [[tag/Note]], [[tag/Shuang Pin]], [[tag/Typing]]
 
 首先目前的目的是为了加速输出自己的想法
 

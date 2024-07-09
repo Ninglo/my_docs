@@ -13,3 +13,7 @@
 - 文章 反思的重要性与价值
 
 - 无刻键帽
+
+局部发包的工具, 指定一子路径分析依赖发布 package
+
+flag position bookmark in vscode
