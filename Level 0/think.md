@@ -33,3 +33,5 @@ Tag: [[tag/Software]], [[tag/Idea]], [[tag/Think]]
 Config should inited before activate module
 
 用快捷键而不是鼠标，尝试一下一天全鼠标 -> 体验写文档
+
+发现现在笔记整理的效果还是不好，要有策略
