@@ -1,14 +1,10 @@
 {
-    "cSpell.words": [
-        "INFJ",
-        "INTJ",
-        "Nian"
-    ],
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.patterns": {
-        "Cargo.toml": "Cargo.lock",
-        "*.md": "${basename}*"
-    },
-    "git.confirmEmptyCommits": false,
-    "deno.enable": true
+  "cSpell.words": ["INFJ", "INTJ", "Nian"],
+  "explorer.fileNesting.enabled": true,
+  // "explorer.fileNesting.patterns": {
+  //     "Cargo.toml": "Cargo.lock",
+  //     "*.md": "${basename}*"
+  // },
+  "git.confirmEmptyCommits": false,
+  "deno.enable": true
 }
