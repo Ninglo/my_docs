@@ -2,4 +2,4 @@
 没有沟通成本。而且整体内容复杂度相对简单
 不会有帮别人擦屁股的挫败感
 
-[[tag/Independent Developer]] [[Software]] [[Software Complexity]]
+[[tag/Independent Developer]] [[Software]] [[Software Complexity]] [[tag/Programer]]
