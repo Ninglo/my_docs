@@ -5,4 +5,4 @@
 以我自己为例, 在课程中进行了两天的练习之后, 我就可以完成将输入法切换到双拼的模式中, 且不怎么遇到卡壳的现象了, 因而我觉着这套系统还是有其价值的.
 欢迎大家提出意见.
 
-Tag: [[Shuang Pin]], [[Software]], [[tag/Typing]], [[tag/Course]]
+Tag: [[tag/Shuang Pin]], [[tag/Software]], [[tag/Typing]], [[tag/Course]]

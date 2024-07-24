@@ -2,4 +2,4 @@
 ​
 ​语言的边界就是思想的边界。
 
-[[tag/Language]] [[Philosophy]]
+[[tag/Language]] [[tag/Philosophy]]

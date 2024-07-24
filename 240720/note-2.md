@@ -3,4 +3,4 @@
 
 结果不是目的与意义 过程才是 就如同在旅游中我们并非是享受那个最终回家的那个时刻 而是欣赏旅行过程中沿途的风景
 
-[[Writing]] [[tag/Writing Structure]]
+[[tag/Writing]] [[tag/Writing Structure]]

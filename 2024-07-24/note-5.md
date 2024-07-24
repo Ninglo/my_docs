@@ -2,4 +2,4 @@
 用自发产生的知识结构来定义project，而不是人为的为他创造一个盒子
 其实最核心的问题都不是到底什么输入什么输出 而是说我们要有一个途径将过去存储的信息检索出来 如果没有一个明确的目的，我们check不到过去到底说了什么 无法检索 等于没有记录信息 实际上是通过设计维持整个信息结构低熵的形式
 
-[[Product System]] [[Note]] [[tag/Project]] [[tag/Information]]
+[[tag/Product System]] [[tag/Note]] [[tag/Project]] [[tag/Information]]

@@ -14,4 +14,4 @@
 
 > 项目基于开源项目 https://github.com/Yidadaa/shuangpin 二次改造完成，感谢这位朋友制作的精良项目, 让我不用耗费太多精力搭建项目基础而可以专注课程的设计.
 
-Tag: [[Shuang Pin]], [[Software]], [[tag/Typing]], [[tag/Course]]
+Tag: [[tag/Shuang Pin]], [[tag/Software]], [[tag/Typing]], [[tag/Course]]

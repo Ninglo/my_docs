@@ -13,4 +13,4 @@
 
 最后就是用工具降低这项工作的成本 或者尽可能降低操作的内容 理论上能拿AI来实现后续可能尝试会做一个这样的工具
 
-[[Note]] [[tag/Tag]] [[tag/Self Control]] [[tag/AI Tools]] [[Software]]
+[[tag/Note]] [[tag/Tag]] [[tag/Self Control]] [[tag/AI Tools]] [[tag/Software]]
