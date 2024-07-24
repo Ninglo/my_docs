@@ -1,4 +1,5 @@
 // This is a deno script to parse all notes in the notes folder
+import { Note, Tag, getAllNotes } from "./Note.ts";
 
 // 1. Read All Files
 // 2. Parse File to Note Object
@@ -90,87 +91,8 @@ async function q3(notes: Note[], x = 5, y = 7): Promise<[Tag, number][]> {
     return sortedTags.slice(0, x);
 }
 
-type Tag = string
-
-type Note = {
-    id: string;
-    tags: Tag[];
-    createTime?: number;
-    modifiedTime?: number;
-}
-
-
-async function readAllNotes(notesDir: string): Promise<string[]> {
-    const noteFiles: string[] = [];
-
-    async function readDirRecursive(dir: string) {
-        const dirEntries = Deno.readDir(dir);
-        for await (const entry of dirEntries) {
-            const filePath = `${dir}/${entry.name}`;
-            if (entry.isFile && entry.name.endsWith(".md")) {
-                noteFiles.push(filePath);
-            } else if (entry.isDirectory) {
-                await readDirRecursive(filePath);
-            }
-        }
-    }
-
-    await readDirRecursive(notesDir);
-
-    return noteFiles;
-}
-
-function extractTags(content: string): Tag[] {
-    const tagRegex = /\[\[tag\/(.*?)\]\]/g;
-    const tags: Tag[] = [];
-
-    let match;
-    while ((match = tagRegex.exec(content)) !== null) {
-        tags.push(match[1]);
-    }
-
-    return tags;
-}
-
-async function parseAllNotes(noteFiles: string[]): Promise<Note[]> {
-    const parsedNotes: Note[] = [];
-
-    for (const file of noteFiles) {
-        const content = await Deno.readTextFile(file);
-
-        const fileInfo = await Deno.stat(file);
-        const createTime = fileInfo.birthtime?.getTime();
-        const modifiedTime = fileInfo.mtime?.getTime();
-
-        const note: Note = {
-            id: file,
-            tags: extractTags(content),
-            createTime,
-            modifiedTime,
-        };
-        parsedNotes.push(note);
-    }
-
-    return parsedNotes;
-}
-
-async function _replaceTagsInFile(filePath: string): Promise<void> {
-    const tagRegex = /\[\[(?!tag\/)(.*?)\]\]/g;
-
-    try {
-        const content = await Deno.readTextFile(filePath);
-        const replacedContent = content.replace(tagRegex, '[[tag/$1]]');
-        await Deno.writeTextFile(filePath, replacedContent);
-        console.log(`Tags replaced in file: ${filePath}`);
-    } catch (error) {
-        console.error(`Error replacing tags in file: ${filePath}`);
-        console.error(error);
-    }
-}
-
 async function main() {
-    const notes = await readAllNotes('/Users/jiujianian/Documents/my_docs')
-    const parsedNotes = await parseAllNotes(notes)
+    const parsedNotes = await getAllNotes('/Users/jiujianian/Documents/my_docs');
 
     const q1Answer = q1(parsedNotes).map(([tag, count]) => `  - ${tag}: ${count}`).join('\n')
     const q1AnswerStr = `- What should I do next?\n(Find the top x ref tags in range of y days)\n${q1Answer}\n`;

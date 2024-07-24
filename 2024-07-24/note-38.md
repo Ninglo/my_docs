@@ -2,4 +2,4 @@
 未经审视的人生不值得 这种愿意以激情投入到对现有流程的优化中的直觉和mindet 可能是程序员最重要的天赋
 无关代码 即使是一些日常生活中的问题，他们也会以同样的思维模式来考虑迭代优化
 
-[[tag/Programer]] [[tag/Mindset]] [[tag/Video]] [[tag/Teach a Man to Fish]]
+[[tag/Programmer]] [[tag/Mindset]] [[tag/Video]] [[tag/Teach a Man to Fish]]

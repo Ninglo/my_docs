@@ -4,4 +4,4 @@
 最核心的能力是发现问题 挖掘需求 并找到切实有效、成本最低的解决方案 其实开发程序类似一个健身的过程 他只是一个良好的训练人发现问题 寻找解决方案的行为 你锻炼出来肌肉 并不是只能用来举哑铃 训练肌肉最行之有效的方法是举哑铃 但是练出肌肉之后 并不是只能用来举哑铃
 分享一个也许不需要编码 但反映了鲜明的程序员特征的事例
 
-[[tag/Programer]] [[tag/Mindset]] [[tag/Teach a Man to Fish]] [[tag/Video]]
+[[tag/Programmer]] [[tag/Mindset]] [[tag/Teach a Man to Fish]] [[tag/Video]]
