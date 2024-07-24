@@ -11,7 +11,7 @@ async function main() {
         return tags.every(tag => note.tags.includes(tag));
     });
 
-    console.log(filteredNotes);
+    console.log(filteredNotes.map(({ id, tags }) => ({ id, tags })));
 }
 
 main();
