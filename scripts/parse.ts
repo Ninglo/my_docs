@@ -92,7 +92,7 @@ async function q3(notes: Note[], x = 5, y = 7): Promise<[Tag, number][]> {
 }
 
 async function main() {
-    const parsedNotes = await getAllNotes('/Users/jiujianian/Documents/my_docs');
+    const parsedNotes = await getAllNotes(Deno.cwd());
 
     const q1Answer = q1(parsedNotes).map(([tag, count]) => `  - ${tag}: ${count}`).join('\n')
     const q1AnswerStr = `- What should I do next?\n(Find the top x ref tags in range of y days)\n${q1Answer}\n`;
