@@ -11,7 +11,7 @@ async function readAndExportFiles(directoryPath: string, exportBase: string) {
             if (!json.isTrashed && !json.isArchived) {
                 const title = json.title ? `# ${json.title}\n\n` : ''
                 const markdownContent = `${title}${json.textContent}`;
-                const markdownFilePath = `${exportBase}/note-${index + 7}.md`;
+                const markdownFilePath = `${exportBase}/note-${index + 45}.md`;
                 await Deno.writeTextFile(markdownFilePath, markdownContent);
                 index++;
             }
@@ -19,4 +19,4 @@ async function readAndExportFiles(directoryPath: string, exportBase: string) {
     }
 }
 
-readAndExportFiles("/Users/jiujianian/Downloads/Takeout 2/Keep", '/Users/jiujianian/Documents/my_docs/2024-07-28');
+readAndExportFiles("/Users/jiujianian/Downloads/Takeout/Keep", '/Users/jiujianian/Documents/my_docs/2024-07-28');
