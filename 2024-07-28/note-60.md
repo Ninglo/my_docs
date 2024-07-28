@@ -14,4 +14,4 @@ AI到底能不能生成一些质量相对满意的内容 基础内容质量过�
 
 直接把它当做prompt灌进来 拿一个基础的回答验证 coze 做
 
-[[tag/AI]] [[tag/Writing]] [[tag/Model]] [[tag/Information]]
+[[tag/AI]] [[tag/Writing]] [[tag/Model]] [[tag/Information]] [[tag/Self Model]]
