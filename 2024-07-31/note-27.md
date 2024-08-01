@@ -3,3 +3,5 @@
 另外 要搞明白每个人的立场 我们究竟是要解决谁的问题
 
 软件研发的本质就是不断地识别X、Y问题
+
+[[tag/Video]] [[tag/Performance]] [[tag/First Principal]] [[tag/XY Problem]]
