@@ -1,0 +1,29 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://deno.land/std/encoding/csv.ts": "https://deno.land/std@0.224.0/encoding/csv.ts",
+    "https://deno.land/std/encoding/csv.ts.0.224.0": "https://deno.land/std@0.224.0/encoding/csv.ts.0.224.0"
+  },
+  "remote": {
+    "https://deno.land/std@0.224.0/assert/assert.ts": "09d30564c09de846855b7b071e62b5974b001bb72a4b797958fe0660e7849834",
+    "https://deno.land/std@0.224.0/assert/assertion_error.ts": "ba8752bd27ebc51f723702fac2f54d3e94447598f54264a6653d6413738a8917",
+    "https://deno.land/std@0.224.0/bytes/concat.ts": "86161274b5546a02bdb3154652418efe7af8c9310e8d54107a68aaa148e0f5ed",
+    "https://deno.land/std@0.224.0/csv/_io.ts": "568718b7eb4cf3ba140b0690a00ef5a8416ceae9a4116f386114c83717bd8a9e",
+    "https://deno.land/std@0.224.0/csv/csv_parse_stream.ts": "f06696ed1fbda5cb75426dff735b9cc91227eb0fa5367591b98bf88b99ae3048",
+    "https://deno.land/std@0.224.0/csv/csv_stringify_stream.ts": "b564e43b884eb9ab8e1efee8c30a0868a1a9328a33c32a7dd436dc26f63954ac",
+    "https://deno.land/std@0.224.0/csv/mod.ts": "289ecf79b3609f63dfc1d39a7c791f8f14b73b29fb65bbb6b3e3e2bd0cddc75d",
+    "https://deno.land/std@0.224.0/csv/parse.ts": "e2d5e82e19b71a968f5fcd3b76b438ee6f646fe8e948c4c2d3b00ad9cd0a659a",
+    "https://deno.land/std@0.224.0/csv/stringify.ts": "9e0badcbc32fc63ee089d2dfbc5721650d5766ef0a554f07243ab8f03f7c3127",
+    "https://deno.land/std@0.224.0/streams/_common.ts": "948735ef6d140cd6916dca861197b88fc57db52c2f923c392b7a14033d8fed4b",
+    "https://deno.land/std@0.224.0/streams/delimiter_stream.ts": "4e4050740ff27a8824defa6c96126229ef9d794c4ace4ef9cabb10b5ad4a5d14",
+    "https://deno.land/std@0.224.0/streams/text_delimiter_stream.ts": "94dfc900204e306496c1b58c80473db57b6097afdcb8ea9eaff453a193a659f1"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:crypto@^1.0.1",
+        "npm:seedrandom@^3.0.5"
+      ]
+    }
+  }
+}
