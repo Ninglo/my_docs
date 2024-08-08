@@ -7,10 +7,37 @@ const day = String(now.getDate()).padStart(2, '0');
 const hour = String(now.getHours()).padStart(2, '0');
 
 const filePath =
-    "/Users/jiujianian/Downloads/15065922_202408072257281474.csv"
-const wechatNoti = `/Users/jiujianian/Documents/my_docs/data/wechat_${month}_${day}_${hour}.txt`
-const outputPath = `/Users/jiujianian/Documents/my_docs/data/washed_${month}_${day}_${hour}.csv`;
-const outputMailPath = `/Users/jiujianian/Documents/my_docs/data/washed_${month}_${day}_${hour}.mail.txt`;
+    "/Users/jiujianian/Downloads/15065922_202408080839459337.csv"
+
+const dataPath = '/Users/jiujianian/Documents/my_docs/scripts/data'
+const wechatNoti = `${dataPath}/output_${month}_${day}_${hour}.wechat.txt`
+const outputPath = `${dataPath}/output_${month}_${day}_${hour}.csv`;
+const outputTotalMailPath = `${dataPath}/output_${month}_${day}_${hour}.mail.total.txt`;
+const outputMailPath = `${dataPath}/output_${month}_${day}_${hour}.mail.txt`;
+
+const files = Deno.readDir(dataPath);
+let lastModifiedFile: string | null = null;
+let lastModifiedTime: number = 0;
+
+for await (const file of files) {
+    if (file.isFile && file.name.endsWith("mail.total.txt")) {
+        const filePath = `${dataPath}/${file.name}`;
+        const { mtime } = await Deno.stat(filePath);
+        const modifiedTime = mtime?.getTime() || 0;
+
+        if (modifiedTime > lastModifiedTime) {
+            lastModifiedFile = filePath;
+            lastModifiedTime = modifiedTime;
+        }
+    }
+}
+
+const lastModifiedContent = lastModifiedFile ? await Deno.readTextFile(lastModifiedFile) : '';
+if (lastModifiedFile) {
+    console.log("Last modified file:", lastModifiedFile);
+} else {
+    console.log("No file found with name ending in 'mail.txt'");
+}
 
 async function readCSV(filePath: string) {
     const file = await Deno.open(filePath);
@@ -42,18 +69,23 @@ const washed = csvData.map((record) => {
         console.warn("Email or name is missing", { email, name, wechat });
         return false;
     }
+})
+const curtWashed = washed.filter(({ email }) => {
+    const emails = lastModifiedContent?.split(';').map(email => email.trim()) ?? [];
+    return !emails.includes(email!);
 });
 
-const wechatNeed = washed.filter(({ wechat }) => {
+const wechatNeed = curtWashed.filter(({ wechat }) => {
     const trimedWechat = wechat?.trim().replace(/\t/g, "").replaceAll('	', '');
     return trimedWechat
 }).map(({ email, name, wechat }) => `wechat: ${wechat}, email: ${email}, name: ${name}`).join("\n");
 await Deno.writeTextFile(wechatNoti, wechatNeed);
 
-const csvContent = `Name,Email\n` + washed.map(({ name, email }) => `${name},${email}`).join("\n");
-const mailContent = washed.map(({ email }) => email).join(';')
+const csvContent = `Name,Email\n` + curtWashed.map(({ name, email }) => `${name},${email}`).join("\n");
+const mailContent = curtWashed.map(({ email }) => email).join(';')
+const totalMailContent = washed.map(({ email }) => email).join(';')
 await Deno.writeTextFile(outputPath, csvContent);
 await Deno.writeTextFile(outputMailPath, mailContent);
-
+await Deno.writeTextFile(outputTotalMailPath, totalMailContent);
 
 console.log("Washed data saved to", outputPath);

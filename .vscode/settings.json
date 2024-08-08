@@ -16,6 +16,15 @@
   "prettier.enable": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
-
-  "quick-voice-note.dailyNoteDirPath": "/Users/bytedance/Documents/my_docs/Daily"
+  "quick-voice-note.dailyNoteDirPath": "/Users/bytedance/Documents/my_docs/Daily",
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "output_*.mail.txt": "output_${capture}.mail.total.txt, output_${capture}.csv, output_${capture}.wechat.txt"
+  }
 }
