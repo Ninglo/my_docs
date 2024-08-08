@@ -5,15 +5,18 @@ const now = new Date();
 const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are zero-based
 const day = String(now.getDate()).padStart(2, '0');
 const hour = String(now.getHours()).padStart(2, '0');
+const minute = String(now.getMinutes()).padStart(2, '0');
+const timeStr = `${month}_${day}_${hour}_${minute}`;
 
 const filePath =
-    "/Users/jiujianian/Downloads/15065922_202408080839459337.csv"
+    "/Users/jiujianian/Downloads/15065922_202408081256144775.csv"
 
 const dataPath = '/Users/jiujianian/Documents/my_docs/scripts/data'
-const wechatNoti = `${dataPath}/output_${month}_${day}_${hour}.wechat.txt`
-const outputPath = `${dataPath}/output_${month}_${day}_${hour}.csv`;
-const outputTotalMailPath = `${dataPath}/output_${month}_${day}_${hour}.mail.total.txt`;
-const outputMailPath = `${dataPath}/output_${month}_${day}_${hour}.mail.txt`;
+const wechatNoti = `${dataPath}/output_${timeStr}.wechat.txt`
+const wechatTotalNoti = `${dataPath}/output_${timeStr}.wechat.total.txt`
+const outputPath = `${dataPath}/output_${timeStr}.csv`;
+const outputTotalMailPath = `${dataPath}/output_${timeStr}.mail.total.txt`;
+const outputMailPath = `${dataPath}/output_${timeStr}.mail.txt`;
 
 const files = Deno.readDir(dataPath);
 let lastModifiedFile: string | null = null;
@@ -79,7 +82,12 @@ const wechatNeed = curtWashed.filter(({ wechat }) => {
     const trimedWechat = wechat?.trim().replace(/\t/g, "").replaceAll('	', '');
     return trimedWechat
 }).map(({ email, name, wechat }) => `wechat: ${wechat}, email: ${email}, name: ${name}`).join("\n");
+const wechatTotalNeed = washed.filter(({ wechat }) => {
+    const trimedWechat = wechat?.trim().replace(/\t/g, "").replaceAll('	', '');
+    return trimedWechat
+}).map(({ email, name, wechat }) => `wechat: ${wechat}, email: ${email}, name: ${name}`).join("\n");
 await Deno.writeTextFile(wechatNoti, wechatNeed);
+await Deno.writeTextFile(wechatTotalNoti, wechatTotalNeed);
 
 const csvContent = `Name,Email\n` + curtWashed.map(({ name, email }) => `${name},${email}`).join("\n");
 const mailContent = curtWashed.map(({ email }) => email).join(';')

@@ -25,6 +25,6 @@
     "*.tsx": "${capture}.ts",
     "tsconfig.json": "tsconfig.*.json",
     "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-    "output_*.mail.txt": "output_${capture}.mail.total.txt, output_${capture}.csv, output_${capture}.wechat.txt"
+    "output_*.mail.txt": "output_${capture}.mail.total.txt, output_${capture}.csv, output_${capture}.wechat.txt, output_${capture}.wechat.total.txt"
   }
 }
