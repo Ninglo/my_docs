@@ -16,7 +16,6 @@
   "prettier.enable": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
-  "quick-voice-note.dailyNoteDirPath": "/Users/bytedance/Documents/my_docs/Daily",
   "explorer.fileNesting.expand": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
