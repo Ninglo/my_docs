@@ -1,5 +1,4 @@
-// deno-lint-ignore-file no-deprecated-deno-api
-import * as mod from "https://deno.land/std@0.224.0/csv/mod.ts";
+import { readCSV } from "./readCSV.ts";
 
 const now = new Date();
 const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are zero-based
@@ -9,7 +8,7 @@ const minute = String(now.getMinutes()).padStart(2, '0');
 const timeStr = `${month}_${day}_${hour}_${minute}`;
 
 const filePath =
-    "/Users/jiujianian/Downloads/15065922_202408092024513779.csv"
+    "/Users/jiujianian/Downloads/15065922_202408101135261334.csv"
 
 const dataPath = '/Users/jiujianian/Documents/my_docs/scripts/data'
 const wechatNoti = `${dataPath}/output_${timeStr}.wechat.txt`
@@ -40,21 +39,6 @@ if (lastModifiedFile) {
     console.log("Last modified file:", lastModifiedFile);
 } else {
     console.log("No file found with name ending in 'mail.txt'");
-}
-
-async function readCSV(filePath: string) {
-    const file = await Deno.open(filePath);
-    const content = await Deno.readAll(file);
-    Deno.close(file.rid);
-
-    const decoder = new TextDecoder();
-    const decodedContent = decoder.decode(content);
-
-    const records = mod.parse(decodedContent, {
-        skipFirstRow: true,
-    });
-
-    return records;
 }
 
 const csvData = await readCSV(filePath);
