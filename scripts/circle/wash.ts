@@ -1,4 +1,4 @@
-import { readCSV } from "./readCSV.ts";
+import { readCSV } from "../readCSV.ts";
 
 const now = new Date();
 const month = String(now.getMonth() + 1).padStart(2, '0'); // Months are zero-based
@@ -8,7 +8,7 @@ const minute = String(now.getMinutes()).padStart(2, '0');
 const timeStr = `${month}_${day}_${hour}_${minute}`;
 
 const filePath =
-    "/Users/jiujianian/Downloads/15065922_202408102056046846.csv"
+    "/Users/jiujianian/Downloads/15065922_202408110739032375.csv"
 
 const dataPath = '/Users/jiujianian/Documents/my_docs/scripts/data'
 const wechatNoti = `${dataPath}/output_${timeStr}.wechat.txt`

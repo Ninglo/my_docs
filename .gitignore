@@ -7,3 +7,5 @@ node_modules
 segments*
 data
 privateData
+
+*.csv
