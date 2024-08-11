@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-unused-vars
 const str = ``
 
 const base = 0
