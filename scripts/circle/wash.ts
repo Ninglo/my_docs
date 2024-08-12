@@ -8,7 +8,7 @@ const minute = String(now.getMinutes()).padStart(2, '0');
 const timeStr = `${month}_${day}_${hour}_${minute}`;
 
 const filePath =
-    "/Users/jiujianian/Downloads/15065922_202408120842087408.csv"
+    "/Users/jiujianian/Downloads/15065922_202408121225077687.csv"
 
 const dataPath = '/Users/jiujianian/Documents/my_docs/scripts/data'
 const wechatNoti = `${dataPath}/output_${timeStr}.wechat.txt`
