@@ -1,4 +1,4 @@
 首先用一些问题 来吸引用户
 然后为他们在完成阅读视频之后提现提供一些奖励 你让他们真正能阅读完视频
 
-[[tag/Video]] [[Learn Video]]
+[[tag/Video]] [[tag/Learn Video]]

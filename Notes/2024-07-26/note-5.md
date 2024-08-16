@@ -2,4 +2,4 @@
 
 [[240723/note-12]]
 
-[[Note]] [[Product System]]
+[[tag/Note]] [[tag/Product System]]

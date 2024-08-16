@@ -5,13 +5,13 @@
 
 ## Structure (Transformer)
 
-![Paper structure](level_1/LLM/image.png)
+![Paper structure](./images/image.png)
 
-![Transformer](image-6.png)
+![Transformer](./images/image-6.png)
 
 ## Train & Use 原理
 
-![how llms are built?](image-3.png)
+![how llms are built?](./images/image-3.png)
 
 ### LLM 构建主要流程
 
@@ -30,11 +30,11 @@ tokenization 是什么意思？tokenization 和字符有什么区别？
 
 ## LLM 应用场景
 
-![how llms are used and augmented](image-4.png)
+![how llms are used and augmented](./images/image-4.png)
 
 ## LLM Families
 
-![LLM Families](image-5.png)
+![LLM Families](./images/image-5.png)
 
 # Agent
 
@@ -52,15 +52,15 @@ tokenization 是什么意思？tokenization 和字符有什么区别？
 * perception - 效应器
 * action - 执行
 
-![Agent 结构和每部分关注的内容](image-1.png)
+![Agent 结构和每部分关注的内容](./images/image-1.png)
 
 > https://aws.amazon.com/what-is/ai-agents/
 An artificial intelligence (AI) agent is a software program that can interact with its environment, collect data, and use the data to perform self-determined tasks to meet predetermined goals. Humans set goals, but an AI agent independently chooses the best actions it needs to perform to achieve those goals. For example, consider a contact center AI agent that wants to resolves customer queries. The agent will automatically ask the customer different questions, look up information in internal documents, and respond with a solution. Based on the customer responses, it determines if it can resolve the query itself or pass it on to a human.
 AI Agents are artificial entities that are using sensors to perceive surrounding environments, make decisions, and then taking actions in response using actuators.
 
-![Agent 工作流](image-2.png)
+![Agent 工作流](./images/image-2.png)
 
-![Agent Example](image-8.png)
+![Agent Example](./images/image-8.png)
 
 ## Agent 可以做什么？
 
@@ -91,6 +91,6 @@ https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
 
 # RAG
 
-![RAG](image-7.png)
+![RAG](./images/image-7.png)
 
 ## 怎么理解 embedding？
