@@ -42,3 +42,5 @@ Have you ever lived abroad?
 trolley problem
 
 The most important thing about trolley problem is not talking about which choice is right or wrong. Rather, it is talking about the dilemmas encountered by various moral theories in this problem.
+
+[[status/Archived]]

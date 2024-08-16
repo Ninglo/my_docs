@@ -12,4 +12,6 @@
 
 因而 我们其实要接受无聊和低效这件事 因为他们可能是做出重要影响的关键前提 我们需要让自己有更多的空余时间来探索 才能达到一种全局更优化的状态
 
-[[tag/Writing]] [[tag/Product System]] [[state/DONE]]
+[[tag/Writing]] [[tag/Product System]]
+
+[[status/Unpublished]]

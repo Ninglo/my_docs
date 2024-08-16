@@ -4,9 +4,11 @@ export async function getAllNotes(path: string) {
     return parsedNotes;
 }
 export type Tag = string;
+export type Status = 'VideoPublished' | 'ArticlePublished' | 'Archived';
 export type Note = {
     id: string;
     tags: Tag[];
+    status: Status[];
     createTime?: number;
     modifiedTime?: number;
 };
@@ -30,6 +32,7 @@ async function readAllNotes(notesDir: string): Promise<string[]> {
 
     return noteFiles;
 }
+
 function extractTags(content: string): Tag[] {
     const tagRegex = /\[\[tag\/(.*?)\]\]/g;
     const tags: Tag[] = [];
@@ -40,6 +43,18 @@ function extractTags(content: string): Tag[] {
     }
 
     return tags;
+}
+
+function extractStatus(content: string): Status[] {
+    const statusRegex = /\[\[status\/(.*?)\]\]/g;
+    const status: Status[] = [];
+
+    let match;
+    while ((match = statusRegex.exec(content)) !== null) {
+        status.push(match[1] as Status);
+    }
+
+    return status;
 }
 
 async function parseAllNotes(noteFiles: string[]): Promise<Note[]> {
@@ -55,6 +70,7 @@ async function parseAllNotes(noteFiles: string[]): Promise<Note[]> {
         const note: Note = {
             id: file,
             tags: extractTags(content),
+            status: extractStatus(content),
             createTime,
             modifiedTime,
         };

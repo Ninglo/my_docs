@@ -57,3 +57,5 @@
 
 ## 总结
 因而，利用碎片时间是其实是美丽的谎言。我们一定要接受 “无聊” 和 “低效”，放弃掌控碎片时间的错觉与欲望。
+
+[[status/ArticlePublished]] [[status/VideoPublished]]

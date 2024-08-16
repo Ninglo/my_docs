@@ -39,3 +39,4 @@
 - [小心效率陷阱：為什麼你不需要"第二大腦"或者"個人知識庫"？](https://youtu.be/5kNCcpM61eo?si=XTR0LBemiPDp2Ch7)
 
 [[tag/Note]] [[tag/Connection]] [[tag/Product System]] [[tag/Writing Structure]] [[tag/Teach a Man to Fish]]
+[[status/ArticlePublished]]

@@ -112,3 +112,5 @@ sn举个例子比如我想要去 通过阅读源码学习一门与新的语言 �
 https://sharzy.in/posts/2020-02-04-cjk-helper/
 https://github.com/microsoft/vscode/pull/203605
 https://github.com/microsoft/vs
+
+[[status/ArticlePublished]] [[status/VideoPublished]]

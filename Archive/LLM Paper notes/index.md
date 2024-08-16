@@ -94,3 +94,5 @@ https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
 ![RAG](./images/image-7.png)
 
 ## 怎么理解 embedding？
+
+[[status/Archived]]

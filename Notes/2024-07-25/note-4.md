@@ -40,3 +40,5 @@
 4:01 不要重复劳动
 4:58 AI 时代的变化
 5:56 总结
+
+[[status/VideoPublished]]

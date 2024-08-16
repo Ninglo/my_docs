@@ -1,5 +1,5 @@
 // This is a deno script to parse all notes in the notes folder
-import { Note, Tag, getAllNotes } from "./Note.ts";
+import { getAllNotes, Note, Tag } from "./Note.ts";
 
 // 1. Read All Files
 // 2. Parse File to Note Object
@@ -14,12 +14,13 @@ import { Note, Tag, getAllNotes } from "./Note.ts";
  *      - Total ref / Current x days' ref
  *  - What's the most important tag?
  *      - Tag with max length of content
+ *  - What's the most important articles?
+ *      - Find the top x articles with max length of content
  *  - What's the relationship between tags?
  *      - By obsidian's graph mode
  *  - WIP: What's the most important article in a specific tag?
  *  - WIP: Which the job is still not done?
  */
-
 
 // - What should I do next?
 //    - Find the top x ref tags in range of y days
@@ -29,14 +30,18 @@ function q1(notes: Note[], x = 5, y = 7): [Tag, number][] {
 
     const tagCount = new Map<Tag, number>();
 
-    const notesInTimeRange = notes.filter(note => note.modifiedTime && note.modifiedTime >= timeRange);
-    notesInTimeRange.forEach(note => {
-        note.tags.forEach(tag => {
+    const notesInTimeRange = notes.filter((note) =>
+        note.modifiedTime && note.modifiedTime >= timeRange
+    );
+    notesInTimeRange.forEach((note) => {
+        note.tags.forEach((tag) => {
             tagCount.set(tag, (tagCount.get(tag) || 0) + 1);
         });
     });
 
-    const sortedTags = Array.from(tagCount.entries()).sort((a, b) => b[1] - a[1]);
+    const sortedTags = Array.from(tagCount.entries()).sort((a, b) =>
+        b[1] - a[1]
+    );
     return sortedTags.slice(0, x);
 }
 
@@ -49,11 +54,14 @@ function q2(notes: Note[], x = 10, y = 7) {
     const tagCount = new Map<Tag, number>();
     const tagCountInTimeRange = new Map<Tag, number>();
 
-    notes.forEach(note => {
-        note.tags.forEach(tag => {
+    notes.forEach((note) => {
+        note.tags.forEach((tag) => {
             tagCount.set(tag, (tagCount.get(tag) || 0) + 1);
             if (note.createTime && note.createTime >= timeRange) {
-                tagCountInTimeRange.set(tag, (tagCountInTimeRange.get(tag) || 0) + 1);
+                tagCountInTimeRange.set(
+                    tag,
+                    (tagCountInTimeRange.get(tag) || 0) + 1,
+                );
             }
         });
     });
@@ -76,34 +84,80 @@ function q2(notes: Note[], x = 10, y = 7) {
 async function q3(notes: Note[], x = 5, y = 7): Promise<[Tag, number][]> {
     const now = Date.now();
     const timeRange = now - y * 24 * 60 * 60 * 1000;
-    const validNotes = notes.filter(note => note.modifiedTime && note.modifiedTime >= timeRange);
+    const validNotes = notes.filter((note) =>
+        note.modifiedTime && note.modifiedTime >= timeRange
+    );
 
     const tagContentLength = new Map<Tag, number>();
-    await Promise.all(validNotes.map(async note => {
+    await Promise.all(validNotes.map(async (note) => {
         const content = await Deno.readTextFile(note.id);
         const contentLength = content.length;
-        note.tags.forEach(tag => {
-            tagContentLength.set(tag, (tagContentLength.get(tag) || 0) + contentLength);
+        note.tags.forEach((tag) => {
+            tagContentLength.set(
+                tag,
+                (tagContentLength.get(tag) || 0) + contentLength,
+            );
         });
     }));
 
-    const sortedTags = Array.from(tagContentLength.entries()).sort((a, b) => b[1] - a[1]);
+    const sortedTags = Array.from(tagContentLength.entries()).sort((a, b) =>
+        b[1] - a[1]
+    );
     return sortedTags.slice(0, x);
+}
+
+// *  - What's the most important articles?
+// *      - Find the top x articles with max length of content
+async function q4(notes: Note[], x = 20): Promise<[string, number][]> {
+    const notesWithLength = await Promise.all(notes.map(async (note) => {
+        const content = await Deno.readTextFile(note.id);
+        return { ...note, length: content.length };
+    }));
+
+    const sortedNotes = notesWithLength
+        .filter((note) =>
+            !(
+                note.status.includes("Archived") ||
+                (
+                    note.status.includes("VideoPublished") &&
+                    note.status.includes("ArticlePublished")
+                )
+            )
+        )
+        .sort((a, b) => b.length - a.length);
+    return sortedNotes.slice(0, x).map((note) => [note.id, note.length]);
 }
 
 async function main() {
     const parsedNotes = await getAllNotes(Deno.cwd());
 
-    const q1Answer = q1(parsedNotes).map(([tag, count]) => `  - ${tag}: ${count}`).join('\n')
-    const q1AnswerStr = `- What should I do next?\n(Find the top x ref tags in range of y days)\n${q1Answer}\n`;
+    const q1Answer = q1(parsedNotes).map(([tag, count]) =>
+        `  - ${tag}: ${count}`
+    ).join("\n");
+    const q1AnswerStr =
+        `- What should I do next?\n(Find the top x ref tags in range of y days)\n${q1Answer}\n`;
 
-    const q2Answer = q2(parsedNotes).map(([tag, count, total]) => `  - ${tag}: ${count}, ${total}`).join('\n')
-    const q2AnswerStr = `- Which the tag was popular, but now has been forgotten?\n(With top x tags in Total ref / Current x days' ref)\n${q2Answer}\n`
+    const q2Answer = q2(parsedNotes).map(([tag, count, total]) =>
+        `  - ${tag}: ${count}, ${total}`
+    ).join("\n");
+    const q2AnswerStr =
+        `- Which the tag was popular, but now has been forgotten?\n(With top x tags in Total ref / Current x days' ref)\n${q2Answer}\n`;
 
-    const q3Answer = (await q3(parsedNotes)).map(([tag, count]) => `  - ${tag}: ${count}`).join('\n')
-    const q3AnswerStr = `- What's the most important tag?\n(Top x tag with max length of content)\n${q3Answer}\n`;
+    const q3Answer = (await q3(parsedNotes)).map(([tag, count]) =>
+        `  - ${tag}: ${count}`
+    ).join("\n");
+    const q3AnswerStr =
+        `- What's the most important tag?\n(Top x tag with max length of content)\n${q3Answer}\n`;
 
-    console.log(`${q1AnswerStr}\n${q2AnswerStr}\n${q3AnswerStr}`);
+    const q4Answer = (await q4(parsedNotes)).map(([id, count]) =>
+        `  - ${id}: ${count}`
+    ).join("\n");
+    const q4AnswerStr =
+        `- What's the most important articles?\n(Find the top x articles with max length of content)\n${q4Answer}\n`;
+
+    console.log(
+        `${q1AnswerStr}\n${q2AnswerStr}\n${q3AnswerStr}\n${q4AnswerStr}`,
+    );
 }
 
-main()
+main();
