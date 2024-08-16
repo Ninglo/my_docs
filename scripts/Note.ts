@@ -4,7 +4,7 @@ export async function getAllNotes(path: string) {
     return parsedNotes;
 }
 export type Tag = string;
-export type Status = 'VideoPublished' | 'ArticlePublished' | 'Archived';
+export type Status = 'VideoPublished' | 'ArticlePublished' | 'Archived' | string;
 export type Note = {
     id: string;
     tags: Tag[];
