@@ -1,6 +1,0 @@
-{
-	"devDependencies": {
-		"crypto": "^1.0.1",
-		"seedrandom": "^3.0.5"
-	}
-}
