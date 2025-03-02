@@ -1,8 +1,0 @@
-				J413			
-Group1		Group2		Group3		Group4	
-记者	参观团	狮子	长颈鹿	青蛙	猴子	雪豹	野生山羊
-Kevin	Leo	Yoyo	Lucy	Chloe	Rick	Hardy	Andre
-Alice	Donie	Larry	Frank	Eric	Noe	Kathy	Lisa
-Una	Sophia	Lucas	Emily	James	Bella	Angel	Winni
-Chris		David			Romey	Alan	
-
