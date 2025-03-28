@@ -31,16 +31,12 @@
 - 绩效 M, M, M-(最后的 M- 是离职主动找 leader 要的)
 
 ## 代表文章 & 视频
-### VSCode 相关
 - [VSCode 架构分析 - Electron 项目跨平台最佳实践](https://zhuanlan.zhihu.com/p/656007783)
   * 帮助团队内同学了解 VSCode 跨平台（如何运行于浏览器中）机制
 - [阅读源码前一定要明确的四个问题 & 实战: 向 VSCode 发起一个 Pull Request](https://www.bilibili.com/video/BV14FY1ejEE2/?share_source=copy_web&vd_source=b0b87adacefa7d06df11a4859d7b61ae)
   * 帮助团队内新同学确立阅读大型项目源码的基本原则，避免其在新开发 VSCode 项目时无从下手
 - [软件开发授人以渔 -- 15 分钟自己开发一个 VSCode 插件](https://www.bilibili.com/video/BV1BJ8SeMEbp/?share_source=copy_web&vd_source=b0b87adacefa7d06df11a4859d7b61ae)
-
-### AI 相关
 - [AI 普及了，以后不再需要程序员了吗？](https://zhuanlan.zhihu.com/p/707109363)
-- [用 “套公式” 的思路提升你的 AI 回答质量](https://zhuanlan.zhihu.com/p/16771890990)
 - [AI 赋能非研发人员数据处理工作的思考与一个简单实践](https://zhuanlan.zhihu.com/p/6370222417)
 
 ## 学校
